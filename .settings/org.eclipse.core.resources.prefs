@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+encoding//Preprocessing/commentPreprocessor.py=utf-8
+encoding//Supervised/supervisedManager.py=utf-8
+encoding//Unsupervised/unsupervisedManager.py=utf-8
+encoding//Utils/XmlManager.py=utf-8
