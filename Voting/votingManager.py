@@ -7,7 +7,22 @@ Created on 08/12/2014
 from Supervised.supervisedManager import SupervisedManager as SM
 from sklearn.metrics import f1_score
 
-def NaiveVoting(matrix):    
+def NaiveVoting(domain):    
+    manager = SM()
+    if domain==1:
+        resultSVM = manager.optimize_classifierTFIDF(1, 1)    
+        resultNB = manager.optimize_classifierTFIDF(2, 1)
+        resultME = manager.optimize_classifierTFIDF(3, 1)
+        resultDT = manager.optimize_classifierTFIDF(4, 1)
+    else:
+        resultSVM = manager.optimize_classifierTFIDF(1, 2)    
+        resultNB = manager.optimize_classifierTFIDF(2, 2)
+        resultME = manager.optimize_classifierTFIDF(3, 2)
+        resultDT = manager.optimize_classifierTFIDF(4, 2)
+        
+         
+    matrix = [resultSVM[0] , resultNB[0] , resultME[0] , resultDT[0]]
+        
     positive = []
     negative = []
     neutral = []
@@ -31,6 +46,12 @@ def NaiveVoting(matrix):
             result.append('N')
         else:
             result.append('NEU')
+            
+    print "The Final Result is"
+    print result    
+    y_true = resultSVM[1]
+    print "And the final table is: "    
+    manager.show_classificator_report(y_true, result)            
     return result
 
 def max_value(labels_values):
@@ -42,12 +63,19 @@ def max_value(labels_values):
             pos = i
     return labels_values[pos][0]
            
-def weightedVoting():
+def weightedVoting(domain):
     manager = SM()
-    resultSVM = manager.optimize_classifierTFIDF(1,1)    
-    resultNB = manager.optimize_classifierTFIDF(2, 1)
-    resultME = manager.optimize_classifierTFIDF(3, 1)
-    resultDT = manager.optimize_classifierTFIDF(4, 1)
+    if domain==1:
+        resultSVM = manager.optimize_classifierTFIDF(1,1)    
+        resultNB = manager.optimize_classifierTFIDF(2, 1)
+        resultME = manager.optimize_classifierTFIDF(3, 1)
+        resultDT = manager.optimize_classifierTFIDF(4, 1)
+    else:
+        resultSVM = manager.optimize_classifierTFIDF(1,2)    
+        resultNB = manager.optimize_classifierTFIDF(2, 2)
+        resultME = manager.optimize_classifierTFIDF(3, 2)
+        resultDT = manager.optimize_classifierTFIDF(4, 2)
+        
     
     weightSVM = resultSVM[2]
     weightNB = resultNB[2]
@@ -61,8 +89,7 @@ def weightedVoting():
     labelsDT = resultSVM[0]
     
     ytrue = resultSVM[1]
-    
-    
+        
     labels_and_values = []
     for i in range(len(labelsSVM)):
         pos = ['P' , 0.0]
@@ -107,39 +134,7 @@ def weightedVoting():
 
 if __name__ == '__main__':
     
-    weightedVoting()
-   
-    '''
-    manager = SM()
-    resultSVM = manager.optimize_classifierTFIDF(1, 1)
+    #weightedVoting(2)
+    NaiveVoting(2)
     
-    print "este1"
-    print resultSVM[0]
-    print "este2"
-    print resultSVM[1]
-    print "este3"
-    print resultSVM[2]
-    #resultNB = manager.optimize_classifierTFIDF(2, 1)
-    #resultME = manager.optimize_classifierTFIDF(3, 1)
-    #resultDT = manager.optimize_classifierTFIDF(4, 1)
-     
-    print "Result SVM"
-    print resultSVM[0] 
-    print "Result NB"
-    print resultNB[0]
-    print "Result ME"
-    print resultME[0]
-    print "Result DT"
-    print resultDT[0]
-    
-    
-    matrix = [resultSVM[0] , resultNB[0] , resultME[0] , resultDT[0]]
-    
-    final_results = NaiveVoting(matrix)
-    print "Final Result"
-    print final_results
-    
-    y_true = resultSVM[1]
-    
-    manager.show_classificator_report(y_true, final_results)
-    '''                                                                                                                                                        
+                                                                                                                                                            

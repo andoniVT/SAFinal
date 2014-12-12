@@ -1,37 +1,37 @@
-/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/peruvian/PosNegNeu/simpleVectorizer.pk1
-/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/peruvian/PosNegNeu/tfidfVectorizer.pk1
+/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/spanish/PosNegNeu/simpleVectorizer.pk1
+/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/spanish/PosNegNeu/tfidfVectorizer.pk1
 /usr/local/lib/python2.7/dist-packages/numpy/core/fromnumeric.py:2499: VisibleDeprecationWarning: `rank` is deprecated; use the `ndim` attribute or function instead. To find the rank of a matrix see `numpy.linalg.matrix_rank`.
   VisibleDeprecationWarning)
-/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/peruvian/PosNeg/simpleVectorizer.pk1
-/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/peruvian/PosNeg/tfidfVectorizer.pk1
-/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/peruvian/PosNeu/simpleVectorizer.pk1
-/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/peruvian/PosNeu/tfidfVectorizer.pk1
-/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/peruvian/NegNeu/simpleVectorizer.pk1
-/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/peruvian/NegNeu/tfidfVectorizer.pk1
+/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/spanish/PosNeg/simpleVectorizer.pk1
+/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/spanish/PosNeg/tfidfVectorizer.pk1
+/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/spanish/PosNeu/simpleVectorizer.pk1
+/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/spanish/PosNeu/tfidfVectorizer.pk1
+/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/spanish/NegNeu/simpleVectorizer.pk1
+/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/spanish/NegNeu/tfidfVectorizer.pk1
 ---------------------------
 4
-Peruvian Classifier
+Spanish Classifier
 SVM
 PNeg TF classifier
-/home/andoni/Escritorio/PythonProjets/DataTrained/classifierTrained/peruvian/SVM/PNeg_TFclassifier.pk1
+/home/andoni/Escritorio/PythonProjets/DataTrained/classifierTrained/spanish/SVM/PNeg_TFclassifier.pk1
 Suppervised Classifier
  -- Support Vector Machine Classifier -- 
 ---------------------------
 ---------------------------
 6
-Peruvian Classifier
+Spanish Classifier
 SVM
 PNeu TF classifier
-/home/andoni/Escritorio/PythonProjets/DataTrained/classifierTrained/peruvian/SVM/PNeu_TFclassifier.pk1
+/home/andoni/Escritorio/PythonProjets/DataTrained/classifierTrained/spanish/SVM/PNeu_TFclassifier.pk1
 Suppervised Classifier
  -- Support Vector Machine Classifier -- 
 ---------------------------
 ---------------------------
 8
-Peruvian Classifier
+Spanish Classifier
 SVM
 NegNeu TF classifier
-/home/andoni/Escritorio/PythonProjets/DataTrained/classifierTrained/peruvian/SVM/NegNeu_TFclassifier.pk1
+/home/andoni/Escritorio/PythonProjets/DataTrained/classifierTrained/spanish/SVM/NegNeu_TFclassifier.pk1
 Suppervised Classifier
  -- Support Vector Machine Classifier -- 
 ---------------------------
@@ -40,47 +40,47 @@ ALL
 ETAPAS: 
              precision    recall  f1-score   support
 
-         -1       1.00      0.47      0.64       133
-          0       0.61      1.00      0.76       173
-          1       1.00      0.56      0.72        94
+         -1       1.00      0.34      0.51       102
+          0       0.61      1.00      0.76       171
+          1       1.00      0.46      0.63        78
 
-avg / total       0.83      0.72      0.71       400
+avg / total       0.81      0.69      0.66       351
 
-[[ 62  71   0]
- [  0 173   0]
- [  0  41  53]]
-/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/peruvian/PosNegNeu/simpleVectorizer.pk1
-/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/peruvian/PosNegNeu/tfidfVectorizer.pk1
-/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/peruvian/PosNeg/simpleVectorizer.pk1
-/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/peruvian/PosNeg/tfidfVectorizer.pk1
-/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/peruvian/PosNeu/simpleVectorizer.pk1
-/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/peruvian/PosNeu/tfidfVectorizer.pk1
-/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/peruvian/NegNeu/simpleVectorizer.pk1
-/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/peruvian/NegNeu/tfidfVectorizer.pk1
+[[ 35  67   0]
+ [  0 171   0]
+ [  0  42  36]]
+/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/spanish/PosNegNeu/simpleVectorizer.pk1
+/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/spanish/PosNegNeu/tfidfVectorizer.pk1
+/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/spanish/PosNeg/simpleVectorizer.pk1
+/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/spanish/PosNeg/tfidfVectorizer.pk1
+/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/spanish/PosNeu/simpleVectorizer.pk1
+/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/spanish/PosNeu/tfidfVectorizer.pk1
+/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/spanish/NegNeu/simpleVectorizer.pk1
+/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/spanish/NegNeu/tfidfVectorizer.pk1
 ---------------------------
 4
-Peruvian Classifier
+Spanish Classifier
 Naive Bayes
 PNeg TF classifier
-/home/andoni/Escritorio/PythonProjets/DataTrained/classifierTrained/peruvian/NaiveBayes/PNeg_TFclassifier.pk1
+/home/andoni/Escritorio/PythonProjets/DataTrained/classifierTrained/spanish/NaiveBayes/PNeg_TFclassifier.pk1
 Suppervised Classifier
  -- Naive Bayes Classifier -- 
 ---------------------------
 ---------------------------
 6
-Peruvian Classifier
+Spanish Classifier
 Naive Bayes
 PNeu TF classifier
-/home/andoni/Escritorio/PythonProjets/DataTrained/classifierTrained/peruvian/NaiveBayes/PNeu_TFclassifier.pk1
+/home/andoni/Escritorio/PythonProjets/DataTrained/classifierTrained/spanish/NaiveBayes/PNeu_TFclassifier.pk1
 Suppervised Classifier
  -- Naive Bayes Classifier -- 
 ---------------------------
 ---------------------------
 8
-Peruvian Classifier
+Spanish Classifier
 Naive Bayes
 NegNeu TF classifier
-/home/andoni/Escritorio/PythonProjets/DataTrained/classifierTrained/peruvian/NaiveBayes/NegNeu_TFclassifier.pk1
+/home/andoni/Escritorio/PythonProjets/DataTrained/classifierTrained/spanish/NaiveBayes/NegNeu_TFclassifier.pk1
 Suppervised Classifier
  -- Naive Bayes Classifier -- 
 ---------------------------
@@ -89,47 +89,47 @@ ALL
 ETAPAS: 
              precision    recall  f1-score   support
 
-         -1       1.00      0.32      0.49       133
-          0       0.53      1.00      0.69       173
-          1       1.00      0.32      0.48        94
+         -1       1.00      0.02      0.04       102
+          0       0.55      1.00      0.71       171
+          1       1.00      0.51      0.68        78
 
-avg / total       0.80      0.61      0.58       400
+avg / total       0.78      0.61      0.51       351
 
-[[ 43  90   0]
- [  0 173   0]
- [  0  64  30]]
-/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/peruvian/PosNegNeu/simpleVectorizer.pk1
-/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/peruvian/PosNegNeu/tfidfVectorizer.pk1
-/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/peruvian/PosNeg/simpleVectorizer.pk1
-/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/peruvian/PosNeg/tfidfVectorizer.pk1
-/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/peruvian/PosNeu/simpleVectorizer.pk1
-/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/peruvian/PosNeu/tfidfVectorizer.pk1
-/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/peruvian/NegNeu/simpleVectorizer.pk1
-/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/peruvian/NegNeu/tfidfVectorizer.pk1
+[[  2 100   0]
+ [  0 171   0]
+ [  0  38  40]]
+/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/spanish/PosNegNeu/simpleVectorizer.pk1
+/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/spanish/PosNegNeu/tfidfVectorizer.pk1
+/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/spanish/PosNeg/simpleVectorizer.pk1
+/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/spanish/PosNeg/tfidfVectorizer.pk1
+/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/spanish/PosNeu/simpleVectorizer.pk1
+/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/spanish/PosNeu/tfidfVectorizer.pk1
+/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/spanish/NegNeu/simpleVectorizer.pk1
+/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/spanish/NegNeu/tfidfVectorizer.pk1
 ---------------------------
 4
-Peruvian Classifier
+Spanish Classifier
 Max Entropy
 PNeg TF classifier
-/home/andoni/Escritorio/PythonProjets/DataTrained/classifierTrained/peruvian/MaxEnt/PNeg_TFclassifier.pk1
+/home/andoni/Escritorio/PythonProjets/DataTrained/classifierTrained/spanish/MaxEnt/PNeg_TFclassifier.pk1
 Suppervised Classifier
  -- Maximum Entropy Classifier -- 
 ---------------------------
 ---------------------------
 6
-Peruvian Classifier
+Spanish Classifier
 Max Entropy
 PNeu TF classifier
-/home/andoni/Escritorio/PythonProjets/DataTrained/classifierTrained/peruvian/MaxEnt/PNeu_TFclassifier.pk1
+/home/andoni/Escritorio/PythonProjets/DataTrained/classifierTrained/spanish/MaxEnt/PNeu_TFclassifier.pk1
 Suppervised Classifier
  -- Maximum Entropy Classifier -- 
 ---------------------------
 ---------------------------
 8
-Peruvian Classifier
+Spanish Classifier
 Max Entropy
 NegNeu TF classifier
-/home/andoni/Escritorio/PythonProjets/DataTrained/classifierTrained/peruvian/MaxEnt/NegNeu_TFclassifier.pk1
+/home/andoni/Escritorio/PythonProjets/DataTrained/classifierTrained/spanish/MaxEnt/NegNeu_TFclassifier.pk1
 Suppervised Classifier
  -- Maximum Entropy Classifier -- 
 ---------------------------
@@ -138,47 +138,47 @@ ALL
 ETAPAS: 
              precision    recall  f1-score   support
 
-         -1       1.00      0.37      0.54       133
-          0       0.54      1.00      0.70       173
-          1       1.00      0.32      0.48        94
+         -1       1.00      0.04      0.08       102
+          0       0.54      1.00      0.70       171
+          1       1.00      0.40      0.57        78
 
-avg / total       0.80      0.63      0.60       400
+avg / total       0.78      0.59      0.49       351
 
-[[ 49  84   0]
- [  0 173   0]
- [  0  64  30]]
-/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/peruvian/PosNegNeu/simpleVectorizer.pk1
-/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/peruvian/PosNegNeu/tfidfVectorizer.pk1
-/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/peruvian/PosNeg/simpleVectorizer.pk1
-/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/peruvian/PosNeg/tfidfVectorizer.pk1
-/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/peruvian/PosNeu/simpleVectorizer.pk1
-/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/peruvian/PosNeu/tfidfVectorizer.pk1
-/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/peruvian/NegNeu/simpleVectorizer.pk1
-/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/peruvian/NegNeu/tfidfVectorizer.pk1
+[[  4  98   0]
+ [  0 171   0]
+ [  0  47  31]]
+/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/spanish/PosNegNeu/simpleVectorizer.pk1
+/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/spanish/PosNegNeu/tfidfVectorizer.pk1
+/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/spanish/PosNeg/simpleVectorizer.pk1
+/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/spanish/PosNeg/tfidfVectorizer.pk1
+/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/spanish/PosNeu/simpleVectorizer.pk1
+/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/spanish/PosNeu/tfidfVectorizer.pk1
+/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/spanish/NegNeu/simpleVectorizer.pk1
+/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/spanish/NegNeu/tfidfVectorizer.pk1
 ---------------------------
 4
-Peruvian Classifier
+Spanish Classifier
 Decision Tree
 PNeg TF classifier
-/home/andoni/Escritorio/PythonProjets/DataTrained/classifierTrained/peruvian/DecTree/PNeg_TFclassifier.pk1
+/home/andoni/Escritorio/PythonProjets/DataTrained/classifierTrained/spanish/DecTree/PNeg_TFclassifier.pk1
 Suppervised Classifier
  -- Decision Tree Classifier -- 
 ---------------------------
 ---------------------------
 6
-Peruvian Classifier
+Spanish Classifier
 Decision Tree
 PNeu TF classifier
-/home/andoni/Escritorio/PythonProjets/DataTrained/classifierTrained/peruvian/DecTree/PNeu_TFclassifier.pk1
+/home/andoni/Escritorio/PythonProjets/DataTrained/classifierTrained/spanish/DecTree/PNeu_TFclassifier.pk1
 Suppervised Classifier
  -- Decision Tree Classifier -- 
 ---------------------------
 ---------------------------
 8
-Peruvian Classifier
+Spanish Classifier
 Decision Tree
 NegNeu TF classifier
-/home/andoni/Escritorio/PythonProjets/DataTrained/classifierTrained/peruvian/DecTree/NegNeu_TFclassifier.pk1
+/home/andoni/Escritorio/PythonProjets/DataTrained/classifierTrained/spanish/DecTree/NegNeu_TFclassifier.pk1
 Suppervised Classifier
  -- Decision Tree Classifier -- 
 ---------------------------
@@ -187,426 +187,26 @@ ALL
 ETAPAS: 
              precision    recall  f1-score   support
 
-         -1       1.00      0.26      0.42       133
-          0       0.53      1.00      0.70       173
-          1       1.00      0.44      0.61        94
+         -1       1.00      0.27      0.43       102
+          0       0.59      1.00      0.74       171
+          1       1.00      0.41      0.58        78
 
-avg / total       0.80      0.62      0.58       400
+avg / total       0.80      0.66      0.62       351
 
-[[ 35  98   0]
- [  0 173   0]
- [  0  53  41]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
-[['P', 0.0], ['N', 0.0], ['NEU', 0.0]]
+[[ 28  74   0]
+ [  0 171   0]
+ [  0  46  32]]
+The Final Result is
+['NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'P', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'P', 'NEU', 'P', 'NEU', 'NEU', 'P', 'NEU', 'NEU', 'P', 'NEU', 'P', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'P', 'P', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'P', 'P', 'P', 'P', 'NEU', 'P', 'NEU', 'P', 'P', 'NEU', 'P', 'NEU', 'NEU', 'P', 'P', 'P', 'NEU', 'NEU', 'NEU', 'P', 'NEU', 'NEU', 'P', 'NEU', 'P', 'P', 'P', 'P', 'NEU', 'NEU', 'P', 'P', 'NEU', 'NEU', 'P', 'NEU', 'P', 'NEU', 'NEU', 'NEU', 'NEU', 'N', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'N', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'N', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU']
 And the final table is: 
              precision    recall  f1-score   support
 
-         -1       1.00      0.47      0.64       133
-          0       0.61      1.00      0.76       173
-          1       1.00      0.56      0.72        94
+         -1       1.00      0.03      0.06       102
+          0       0.54      1.00      0.70       171
+          1       1.00      0.37      0.54        78
 
-avg / total       0.83      0.72      0.71       400
+avg / total       0.77      0.58      0.48       351
 
-[[ 62  71   0]
- [  0 173   0]
- [  0  41  53]]
-And the final results are:
-['P', 'P', 'NEU', 'P', 'P', 'P', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'P', 'NEU', 'P', 'P', 'P', 'NEU', 'P', 'P', 'P', 'NEU', 'P', 'P', 'NEU', 'P', 'P', 'NEU', 'NEU', 'NEU', 'NEU', 'P', 'P', 'P', 'P', 'P', 'P', 'NEU', 'NEU', 'P', 'P', 'P', 'P', 'P', 'P', 'P', 'P', 'NEU', 'P', 'P', 'P', 'P', 'P', 'P', 'P', 'NEU', 'P', 'P', 'NEU', 'NEU', 'NEU', 'P', 'P', 'NEU', 'P', 'P', 'P', 'NEU', 'P', 'NEU', 'P', 'P', 'P', 'NEU', 'NEU', 'P', 'NEU', 'NEU', 'NEU', 'NEU', 'P', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'P', 'NEU', 'NEU', 'P', 'P', 'NEU', 'N', 'N', 'N', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'N', 'N', 'NEU', 'NEU', 'NEU', 'NEU', 'N', 'N', 'NEU', 'NEU', 'N', 'N', 'NEU', 'NEU', 'NEU', 'N', 'NEU', 'N', 'NEU', 'NEU', 'NEU', 'N', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'N', 'N', 'N', 'N', 'N', 'NEU', 'N', 'N', 'NEU', 'NEU', 'NEU', 'N', 'N', 'NEU', 'N', 'NEU', 'N', 'N', 'NEU', 'NEU', 'N', 'N', 'N', 'N', 'N', 'NEU', 'N', 'NEU', 'NEU', 'NEU', 'N', 'N', 'N', 'N', 'N', 'NEU', 'N', 'NEU', 'NEU', 'NEU', 'N', 'NEU', 'NEU', 'N', 'N', 'NEU', 'N', 'N', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'NEU', 'N', 'N', 'N', 'N', 'N', 'N', 'NEU', 'NEU', 'N', 'NEU', 'NEU', 'N', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'N', 'N', 'N', 'NEU', 'N', 'NEU', 'N', 'N', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU', 'NEU']
+[[  3  99   0]
+ [  0 171   0]
+ [  0  49  29]]

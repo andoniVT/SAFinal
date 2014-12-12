@@ -1,0 +1,51 @@
+/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/spanish/PosNegNeu/simpleVectorizer.pk1
+/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/spanish/PosNegNeu/tfidfVectorizer.pk1
+/usr/local/lib/python2.7/dist-packages/numpy/core/fromnumeric.py:2499: VisibleDeprecationWarning: `rank` is deprecated; use the `ndim` attribute or function instead. To find the rank of a matrix see `numpy.linalg.matrix_rank`.
+  VisibleDeprecationWarning)
+/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/spanish/PosNeg/simpleVectorizer.pk1
+/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/spanish/PosNeg/tfidfVectorizer.pk1
+/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/spanish/PosNeu/simpleVectorizer.pk1
+/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/spanish/PosNeu/tfidfVectorizer.pk1
+/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/spanish/NegNeu/simpleVectorizer.pk1
+/home/andoni/Escritorio/PythonProjets/DataTrained/vectorModel/spanish/NegNeu/tfidfVectorizer.pk1
+---------------------------
+4
+Spanish Classifier
+Decision Tree
+PNeg TF classifier
+/home/andoni/Escritorio/PythonProjets/DataTrained/classifierTrained/spanish/DecTree/PNeg_TFclassifier.pk1
+Suppervised Classifier
+ -- Decision Tree Classifier -- 
+---------------------------
+---------------------------
+6
+Spanish Classifier
+Decision Tree
+PNeu TF classifier
+/home/andoni/Escritorio/PythonProjets/DataTrained/classifierTrained/spanish/DecTree/PNeu_TFclassifier.pk1
+Suppervised Classifier
+ -- Decision Tree Classifier -- 
+---------------------------
+---------------------------
+8
+Spanish Classifier
+Decision Tree
+NegNeu TF classifier
+/home/andoni/Escritorio/PythonProjets/DataTrained/classifierTrained/spanish/DecTree/NegNeu_TFclassifier.pk1
+Suppervised Classifier
+ -- Decision Tree Classifier -- 
+---------------------------
+ALL
+3
+ETAPAS: 
+             precision    recall  f1-score   support
+
+         -1       1.00      0.27      0.43       102
+          0       0.59      1.00      0.74       171
+          1       1.00      0.41      0.58        78
+
+avg / total       0.80      0.66      0.62       351
+
+[[ 28  74   0]
+ [  0 171   0]
+ [  0  46  32]]

@@ -599,7 +599,10 @@ class SupervisedManager(object):
             
         print "ALL"
         print len(all_predictions)
-        result = self.evaluar(94, 133, 173, all_predictions[0], all_predictions[1], all_predictions[2])
+        labels_peruvian = [94,133,173]
+        labels_spanish = [78, 102, 171]
+        result = self.evaluar(78, 102, 171, all_predictions[0], all_predictions[1], all_predictions[2])
+        #result = self.evaluar(94, 133, 173, all_predictions[0], all_predictions[1], all_predictions[2])
         self.show_classificator_report(dataTest[0][1], result)        
         return result
     
@@ -640,12 +643,16 @@ class SupervisedManager(object):
             
         print "ALL"
         print len(all_predictions)
-        result = self.evaluar(94, 133, 173, all_predictions[0], all_predictions[1], all_predictions[2])
-        self.show_classificator_report(dataTest[0][1], result)
+        labels_peruvian = [94,133,173]
+        labels_spanish = [78, 102, 171]
         
+        if domain==1:        
+            result = self.evaluar(labels_peruvian[0], labels_peruvian[1], labels_peruvian[2], all_predictions[0], all_predictions[1], all_predictions[2])
+        else:
+            result = self.evaluar(labels_spanish[0], labels_spanish[1], labels_spanish[2], all_predictions[0], all_predictions[1], all_predictions[2])
         
-        f_score = f1_score(dataTest[0][1], result)
-        
+        self.show_classificator_report(dataTest[0][1], result)            
+        f_score = f1_score(dataTest[0][1], result)        
         return [result , dataTest[0][1] , f_score]
                                  
             
@@ -655,10 +662,10 @@ if __name__ == '__main__':
     #manager.prepare_all_models()
     #manager.prepare_all_classifiers()
     
-    #manager.testClassifier(1, 1)
+    #manager.testClassifier(4, 2)
     
-    results = manager.optimize_classifierTFIDF(1, 1)
-    print results
+    results = manager.optimize_classifierTFIDF(4, 2)
+    #print results
     
     
     
